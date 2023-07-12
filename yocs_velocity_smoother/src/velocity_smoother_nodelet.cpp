@@ -40,7 +40,7 @@ namespace yocs_velocity_smoother {
 **********************/
 
 VelocitySmoother::VelocitySmoother(const std::string &name) //初始化
-: name(name)
+: name(name)  //节点名称
 , quiet(false)
 , shutdown_req(false)
 , input_active(false)
